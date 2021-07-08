@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+}
+.all-rights {
+  text-align: center;
+}
+
+.lemon-pie {
+  display: block;
+}
