@@ -2,7 +2,11 @@
 ## Digital House
 
 ### *Projectos*
-* LemonPie:
+* #### *LemonPie:*
   * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/LemonPie)
   * Visitar [LemonPie](https://adrielig.github.io/FrontEnd/LemonPie/)
+* #### *Petshop:*
+  * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/PetShop)
+  * Visitar [PetShop](https://adrielig.github.io/FrontEnd/PetShop/)
+
 
