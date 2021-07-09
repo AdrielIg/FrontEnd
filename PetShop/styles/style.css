@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* --------HEADER--------- */
+.up-bar {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  min-height: 2rem;
+}
+.up-bar > p {
+  font-size: 1rem;
+  color: #fff;
+}
+select {
+  font-size: 1rem;
+}
+header {
+  background-color: #f0a83e;
+}
+
+/* nav */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  min-height: 6.2rem;
+}
+.nav-wrapper > a {
+  text-decoration: none;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3c2313;
+  text-decoration: none;
+}
+.title > span {
+  color: #fff;
+}
+.title::after {
+  content: url("../assets/img/Dog.svg");
+}
+.title::before {
+  content: url("../assets/img/Cat.svg");
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-link {
+  margin: 0 1rem;
+}
+
+.link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #fff;
+}
+.link::before {
+  content: url(../assets/img/pawprint.svg);
+}
+/* -----------MAIN------------- */
+/* Hero */
+.hero {
+  min-height: 42rem;
+  background-image: url("../assets/img/header-bowl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content {
+  /* display: flex; */
+  text-align: center;
+  margin-right: 6rem;
+}
+.content > h2 {
+  font-size: 3rem;
+  background-color: #fff;
+  font-weight: normal;
+  padding: 1rem;
+  border-radius: 5px;
+  color: #3c2313;
+}
+.content > p {
+  color: #3c2313;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+}
+.content > a {
+  color: #fff;
+  font-size: 1.6rem;
+  background: #f0a83e;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* PRODUCTOS DESTACADOS */
+.destacados {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.destacados > h2 {
+  font-size: 4rem;
+  color: #3c2313;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.destacados > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.destacados > ul > li {
+  margin: 0 2rem;
+}
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.desc {
+  font-size: 1.5rem;
+  color: #3c2313;
+}
+.price {
+  font-size: 1.5rem;
+  color: #f0a83e;
+}
+/* CONTACTANOS */
+.contactanos {
+  text-align: center;
+  margin-top: 8rem;
+}
+.contactanos > h3 {
+  font-size: 2.5rem;
+  color: #3c2313;
+}
+.contactanos > form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactanos > form > input {
+  font-family: "Roboto", sans-serif;
+  margin: 1rem 0;
+  background: #3c2313;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  width: 30%;
+}
+input::placeholder {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* buttons */
+.buttons {
+  margin: 3rem;
+}
+.reset {
+  width: 10rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background: #8a8787;
+  border-radius: 15px;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+.submit {
+  width: 10rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background: #f0a83e;
+  border-radius: 15px;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+/* --------FOOTER-------- */
+footer {
+  margin-top: 5rem;
+  color: #fff;
+}
+.newsletter {
+  background: #f0a83e;
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.newsletter > h4 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.newsletter > h4::before {
+  content: url("../assets/img/send-mail.svg");
+}
+.email-letter {
+  background: #ffffff;
+  border-radius: 15px;
+  color: #222222;
+  border: none;
+  font-size: 0.9rem;
+  padding: 1rem 2rem;
+  width: 27rem;
+  font-family: "Roboto", sans-serif;
+}
+.email-letter::placeholder {
+  color: #a0a0a0;
+}
+.submit-letter {
+  color: #ffffff;
+  font-size: 0.9rem;
+  background: #3c2313;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+/* info */
+.info {
+  min-height: 28rem;
+  background: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+.local {
+  display: flex;
+  margin: 2rem 0rem;
+}
+.text {
+  margin-left: 2rem;
+}
+.sub {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.title-footer {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.title-footer > span {
+  color: #f0a83e;
+}
+.title-footer::after {
+  content: url("../assets/img/Dog.svg");
+}
+.title-footer::before {
+  content: url("../assets/img/Cat.svg");
+}
+
+/* allrights */
+.all-rights {
+  background-color: #222222;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  min-height: 1.2rem;
+}

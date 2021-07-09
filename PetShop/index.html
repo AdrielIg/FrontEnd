@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>FrontCat&Dog</title>
+  </head>
+  <body>
+    <header>
+      <div class="up-bar">
+        <p>Grandes ofertas en comederos</p>
+        <div class="options">
+          <select name="lenguaje" id="idioma">
+            <option value="español">Español</option>
+            <option value="ingles">Ingles</option>
+          </select>
+          <select name="moneda" id="moneda">
+            <option value="pesos_argentinos">ARG$</option>
+            <option value="dolares">USD$</option>
+          </select>
+        </div>
+      </div>
+      <div class="nav-wrapper">
+        <a href="">
+          <h1 class="title">Front<span>Cat&Dog</span></h1>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a class="link" href=""> Categoria </a>
+            </li>
+            <li class="nav-link">
+              <a class="link" href=""> Pets </a>
+            </li>
+            <li class="nav-link">
+              <a class="link" href=""> Nosotros </a>
+            </li>
+            <li class="nav-link">
+              <a class="link" href=""> Contactanos </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="content">
+          <h2>¡Es un placer tenerte aquí!</h2>
+          <p>¡Comederos en descuento!</p>
+          <a href="">Comederos</a>
+        </div>
+      </section>
+      <section class="destacados">
+        <img src="assets/img/pawprint-orange.svg" alt="huella de perro" />
+        <h2>Productos Destacados</h2>
+        <ul>
+          <li>Comederos</li>
+          <li>Accesorios</li>
+          <li>Comida</li>
+        </ul>
+        <div class="cards">
+          <!-- Card -->
+          <div class="card">
+            <img src="assets/img/churrasquito.png" alt="Churrasco" />
+            <div class="bottom-card">
+              <p class="desc">Juguete Churrasquito</p>
+              <p class="price">$150</p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="card">
+            <img src="assets/img/comedero.png" alt="Comedero bowl" />
+            <div class="bottom-card">
+              <p class="desc">Comedero para perro</p>
+              <p class="price">$250</p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="card">
+            <img src="assets/img/Huesito.png" alt="Huesito" />
+            <div class="bottom-card">
+              <p class="desc">Juguete Churrasquito</p>
+              <p class="price">$150</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contactanos">
+        <h3>Contáctanos</h3>
+        <form action="" method="POST">
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre y Apellido"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Ingrese tu correo electronico"
+          />
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Telefono"
+          />
+          <div class="buttons">
+            <input class="reset" type="reset" value="Resetear" />
+            <input class="submit" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="newsletter">
+        <h4>Suscríbete para más novedades</h4>
+        <form action='''>
+          <input class="email-letter" type="email" placeholder="Ingresá tu correo electronico">
+          <input class="submit-letter" type="submit" value="Subscribirme">
+        </form>
+      </div>
+      <div class="info">
+        <div class="informacion">
+          <div class="local">
+            <img src="assets/img/localidad.svg" alt="Icono Localidad">
+            <div class="text">
+              <p class="sub">Localidad</p>
+            <p>Calle - provincia</p>
+          </div>
+            </div>
+            
+          <div class="local">
+            <img src="assets/img/phone.svg" alt="Icono Telefono">
+            <div class="text">
+              <p class="sub">Telefono</p>
+            <p>Numero de telefono</p>
+            </div>
+            
+          </div>
+          <div class="local">
+            <img src="assets/img/localidad.svg" alt="Icono Email">
+            <div class="text"><p class="sub">Correo Electronico</p>
+              <p>Direccion de correo</p></div>
+            
+          </div>
+        </div>
+        
+        <a href="">
+          <h5 class="title-footer">Front<span class="cat_dog">Cat&Dog</span></h5>
+        </a>
+      </div>
+      <div class="all-rights">
+        <p>Todos los derechos reservados Front End</p>
+      </div>
+    </footer>
+  </body>
+</html>
