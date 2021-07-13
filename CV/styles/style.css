@@ -28,7 +28,7 @@ h1 {
 }
 
 /* MAIN */
-section {
+.data {
   width: 70%;
   margin: 8rem auto;
 }
@@ -49,17 +49,21 @@ li {
   font-size: 1.5rem;
   margin: 1rem;
 }
-li > span {
+dl {
+  margin-left: 2rem;
+}
+dt,
+dd {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+dd {
+  margin-left: 8rem;
+}
+span {
   font-style: italic;
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-.dates {
-  display: flex;
-}
-.dates > p {
-  margin-left: 1rem;
 }
 
 /* FOOTER */
