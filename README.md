@@ -8,5 +8,8 @@
 * #### *Petshop:*
   * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/PetShop)
   * Visitar [PetShop](https://adrielig.github.io/FrontEnd/PetShop/)
+* #### *CV:*
+  * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/CV)
+  * Visitar [CV](https://adrielig.github.io/FrontEnd/CV/)
 
 
