@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Times New Roman;
+}
+/* HEADER */
+.profile {
+  text-align: center;
+  background: #e6e6e6;
+}
+.profile > img {
+  width: 10rem;
+  border-radius: 5px;
+}
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #005677;
+  text-transform: uppercase;
+  background: #c4c4c4;
+  text-align: center;
+  letter-spacing: 1rem;
+}
+
+/* MAIN */
+section {
+  width: 70%;
+  margin: 8rem auto;
+}
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #005677;
+  text-transform: uppercase;
+  background: #c4c4c4;
+  padding: 0.5rem;
+  letter-spacing: 0.6rem;
+}
+ul {
+  margin: 2rem 3rem;
+}
+li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+li > span {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dates {
+  display: flex;
+}
+.dates > p {
+  margin-left: 1rem;
+}
+
+/* FOOTER */
+footer {
+  background: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+h4 {
+  font-weight: bold;
+  font-size: 2rem;
+
+  color: #ffffff;
+}
+
+.instagram {
+  margin: 0 2rem;
+}
