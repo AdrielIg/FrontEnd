@@ -4,28 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/94bc0d654f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/style.css" />
     <title>Practica</title>
   </head>
   <body>
     <header>
       <img src="assets/img/Logo.svg" alt="Logo" />
-      <section class="hero">
-        <img class="lemon-pie" src="assets/img/lemon-pie.png" alt="Lemon pie" />
-      </section>
-      <hr />
+      <nav>
+        <ul>
+          <li><a href="">Recetas Dulces</a></li>
+          <li><a href="">Recetas Saladas</a></li>
+          <li><a href="">Recetas Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <h2 class="title">El clasico Lemon Pie</h2>
-      <p>
-        Es el preferido de los que les gusta lo dulce pero no lo empalagoso. El
-        lemon pie es una tarta, es decir, una base de masa y un relleno. Como su
-        nombre lo indica, está hecha con jugo de limón, azúcar y huevos. Todo
-        eso mezclado hace el famoso <em>custard</em>, el relleno cremoso
-        amarillo que es tan típico del lemon pie.
-      </p>
+      <section class="hero">
+        <div class="desc">
+          <h2 class="title">El clasico Lemon Pie</h2>
+          <p>
+            Es el preferido de los que les gusta lo dulce pero no lo empalagoso.
+            El lemon pie es una tarta, es decir, una base de masa y un relleno.
+            Como su nombre lo indica, está hecha con jugo de limón, azúcar y
+            huevos. Todo eso mezclado hace el famoso <em>custard</em>, el
+            relleno cremoso amarillo que es tan típico del lemon pie.
+          </p>
+        </div>
+      </section>
+
       <section>
-        <h3>Ingredientes</h3>
+        <h3><i class="fas fa-shopping-basket"></i>Ingredientes</h3>
         <h4>Para la masa</h4>
         <ul>
           <li>200g. gramos de harina 0000</li>
@@ -49,7 +67,7 @@
         </ul>
       </section>
       <section>
-        <h3>Instrucciones</h3>
+        <h3><i class="fas fa-list-ol"></i>Instrucciones</h3>
         <ol>
           <li>
             <p>
@@ -81,7 +99,8 @@
           <li>
             <p>
               Colocar el azúcar en una cacerolita y cubrir con apenas con agua.
-              Cocinar hasta obtener la textura de un merengue italiano
+              Cocinar hasta obtener la textura de un
+              <span class="merengue">merengue italiano</span>
             </p>
           </li>
           <li>
@@ -99,7 +118,7 @@
     </main>
     <footer>
       <hr />
-      <p class="all-rights">Todos los derechos reservados</p>
+      <p>Todos los derechos reservados</p>
     </footer>
   </body>
 </html>
