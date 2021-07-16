@@ -221,9 +221,7 @@ footer {
   font-weight: 700;
   font-size: 2rem;
 }
-.newsletter > h4::before {
-  content: url("../assets/img/send-mail.svg");
-}
+
 .email-letter {
   background: #ffffff;
   border-radius: 15px;
@@ -280,6 +278,13 @@ footer {
 }
 .title-footer::before {
   content: url("../assets/img/Cat.svg");
+}
+.footer-icon {
+  font-size: 3.5rem;
+  background-color: #8a8787;
+  border-radius: 50%;
+  padding: 1.5rem;
+  border: 4px solid #786960;
 }
 
 /* allrights */
