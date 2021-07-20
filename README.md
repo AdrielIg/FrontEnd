@@ -14,4 +14,7 @@
 * #### *Personal CV:*
   * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/personal_cv)
   * Visitar [Personal CV](https://adrielig.github.io/FrontEnd/personal_cv/)
+* #### *Heroes:*
+  * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/Heroes)
+  * Visitar [Heroes](https://adrielig.github.io/FrontEnd/Heroes/)
 
