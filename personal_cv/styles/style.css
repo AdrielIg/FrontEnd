@@ -31,17 +31,20 @@ nav ul li {
   margin: 0 2rem;
 }
 nav li a {
-  color: rgb(47, 73, 54);
-  background-color: rgb(255, 255, 255);
+  color: #000000;
+  background-color: rgb(109, 176, 255);
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
   font-size: 1.6rem;
   font-weight: bold;
-  box-shadow: 2px 2px 2px black;
+  border: 1px solid #fff;
+  box-shadow: 2px 2px 2px #fff;
 }
 nav li a:hover {
   box-shadow: none;
+  background-color: #fff;
+  color: #000;
 }
 /* MAIN */
 .banner {
