@@ -17,4 +17,7 @@
 * #### *Heroes:*
   * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/Heroes)
   * Visitar [Heroes](https://adrielig.github.io/FrontEnd/Heroes/)
+* #### *Pizza&Front:*
+  * Ver [Github](https://github.com/AdrielIg/FrontEnd/tree/main/Pizza%26Front)
+  * Visitar [Pizza&Front](https://adrielig.github.io/FrontEnd/Pizza&Front/)
 
