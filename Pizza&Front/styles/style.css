@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+.title > img {
+  width: 8rem;
+}
+
+.title-pizza {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.pizza {
+  color: #39b24a;
+}
+.front {
+  color: #fc200c;
+}
+
+/* nav */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+nav li {
+  margin: 0 2rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+/* main */
+.wrapper {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.delivery {
+  display: inline-block;
+  height: 70vh;
+  width: 100%;
+  background-image: url("../assets/img/delivery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.delivery h2 {
+  font-size: 2.4rem;
+  color: #fc200c;
+  padding: 2rem 2rem;
+}
+.comprando {
+  color: #fff;
+}
+
+.podio {
+  height: 70vh;
+  width: 100%;
+  padding: 2rem 2rem;
+}
+.podio img {
+  width: 12rem;
+}
+.podio h2 {
+  font-size: 2.4rem;
+  color: #fc200c;
+  text-align: center;
+}
+.podio-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+  height: 100%;
+}
+
+.podio-list h3 {
+  font-size: 2rem;
+}
+.podio-list li {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+  min-height: 10rem;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+footer > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+footer li {
+  margin: 1rem 0;
+  list-style: none;
+}
+footer li a {
+  text-align: left;
+  font-size: 1.6rem;
+}
