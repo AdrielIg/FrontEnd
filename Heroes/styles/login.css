@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.offer {
+  background-color: #d1891c;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+}
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  color: #fff;
+}
+.title {
+  padding: 2rem 2rem;
+  background-color: #00669f;
+  font-weight: normal;
+  font-size: 4rem;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+nav {
+  background-color: #001d2d;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-link a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: 0 2rem;
+}
+
+/* main */
+section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+}
+h2 {
+  font-weight: 700;
+  font-size: 7rem;
+  color: #333333;
+  align-self: flex-start;
+  margin-bottom: 2rem;
+}
+input {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+input::placeholder {
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+input:focus {
+  border: 3px solid #000;
+}
+.send {
+  background-color: #1cd1b0;
+  border: none;
+  border-radius: 23px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+form > p {
+  font-size: 1.4rem;
+}
+form a {
+  color: #00669f;
+  margin: 0 1rem;
+}
+
+footer {
+  background-color: #00669f;
+  padding: 1rem 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > img {
+  width: 6rem;
+}
