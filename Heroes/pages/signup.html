@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/signup.css" />
     <title>Heroes</title>
   </head>
   <body>
@@ -38,23 +38,42 @@
       <section>
         <div class="wrapper">
           <form action="" method="POST">
-            <h2>Login</h2>
+            <h2>Registro</h2>
             <input
               type="text"
               tabindex="1"
-              name="user"
-              placeholder="Usuario"
+              name="names"
+              placeholder="Nombre y Apellido"
+              required
+            />
+            <input
+              type="email"
+              tabindex="2"
+              name="names"
+              placeholder="Correo Electronico"
               required
             />
             <input
               type="password"
-              tabindex="2"
+              tabindex="3"
               name="password"
               placeholder="Contraseña"
               required
             />
-            <input class="send" type="submit" value="Entrar" />
-            <p><a href="/">No tienes una cuenta?</a>Registrarme</p>
+            <select name="pais">
+              <optgroup label="Pais">
+                <option value="" selected disabled hidden>Pais</option>
+                <option value="argentina">Argentina</option>
+                <option value="colombia">Colombia</option>
+                <option value="brasil">Brasil</option>
+              </optgroup>
+            </select>
+            <div class="buttons">
+              <input class="reset" type="reset" value="Resetear" />
+              <input class="send" type="submit" value="Registrar" />
+            </div>
+
+            <p>Ya tienes una cuenta?<a href="/">Ingresa</a></p>
           </form>
         </div>
       </section>
